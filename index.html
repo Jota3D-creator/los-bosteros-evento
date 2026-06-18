@@ -3,39 +3,91 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Los Bosteros en Valencia - Evento</title>
+
+  <title>Los Bosteros en Valencia</title>
+
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <main class="container">
+
     <section class="hero">
+      <div class="badge">Evento oficial</div>
+
       <h1>Los Bosteros en Valencia</h1>
       <h2>Próximo encuentro xeneize</h2>
+
       <p class="date">Fecha: domingo XX de XXXX</p>
       <p class="place">Lugar: Hard Rock Cafe Valencia</p>
-      <p class="price">Entrada: 5 €</p>
+      <p class="price">Entrada: 5 € por persona</p>
 
-      <a class="button" href="PEGAR_LINK_DEL_FORMULARIO" target="_blank">
-        Anotarme al evento
-      </a>
+      <div class="buttons">
+        <a class="button" href="https://form.typeform.com/to/NIe3VqZL" target="_blank">
+          Anotarme al evento
+        </a>
 
-      <a class="button secondary" href="PEGAR_LINK_DE_PAGO_O_INFO" target="_blank">
-        Ver cómo pagar
-      </a>
+        <a class="button secondary" href="#pago">
+          Cómo pagar
+        </a>
+      </div>
     </section>
 
-    <section class="info">
+    <section class="card">
       <h3>Cómo funciona</h3>
+
       <p>
-        Completá el formulario con tu nombre, cantidad de entradas y método de pago.
-        Si ya pagaste, indicá el comprobante o el nombre con el que hiciste la transferencia.
+        Tocá el botón “Anotarme al evento”, completá tus datos y agregá el nombre
+        y apellido de tus invitados si venís acompañado.
+      </p>
+
+      <p>
+        Cada inscripción puede incluir a la persona principal y sus invitados.
+        La organización confirmará manualmente el estado del pago.
       </p>
     </section>
 
-    <section class="contact">
-      <h3>Contacto</h3>
-      <p>Instagram: @losbosterosenvalencia</p>
+    <section class="card" id="pago">
+      <h3>Pago por Bizum</h3>
+
+      <p>
+        Para confirmar tu lugar, hacé el pago por Bizum y luego completá el formulario
+        de inscripción.
+      </p>
+
+      <div class="bizum-box">
+        <p><strong>Importe:</strong> 5 € por persona</p>
+        <p><strong>Concepto:</strong> nombre y apellido de quien se anota</p>
+        <p><strong>Bizum:</strong> PONER_ACÁ_EL_TELÉFONO</p>
+      </div>
+
+      <p>
+        Si venís con invitados, pagá el total correspondiente y agregá sus nombres
+        en el formulario.
+      </p>
+
+      <p>
+        Ejemplo: si venís con 2 invitados, pagás 15 € en total.
+      </p>
     </section>
+
+    <section class="card">
+      <h3>Importante</h3>
+
+      <p>
+        La inscripción queda sujeta a confirmación de la organización. Si el pago
+        no puede identificarse, es posible que se solicite comprobante.
+      </p>
+    </section>
+
+    <section class="card">
+      <h3>Contacto</h3>
+
+      <p>
+        Instagram: @losbosterosenvalencia
+      </p>
+    </section>
+
   </main>
 </body>
 </html>
