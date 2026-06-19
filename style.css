@@ -9,8 +9,8 @@ html {
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #061d5f;
-  color: white;
+  background: linear-gradient(180deg, #75aadb 0%, #ffffff 50%, #75aadb 100%);
+  color: #0f2f57;
 }
 
 .container {
@@ -22,15 +22,16 @@ body {
 .hero {
   text-align: center;
   padding: 55px 25px;
-  background: #0033a0;
+  background: linear-gradient(135deg, #ffffff 0%, #d8efff 45%, #75aadb 100%);
   border-radius: 24px;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 20px 60px rgba(15, 47, 87, 0.25);
+  border: 2px solid rgba(255, 255, 255, 0.8);
 }
 
 .badge {
   display: inline-block;
-  background: #ffcc00;
-  color: #061d5f;
+  background: #f6c453;
+  color: #0f2f57;
   padding: 8px 14px;
   border-radius: 999px;
   font-weight: bold;
@@ -40,10 +41,11 @@ body {
 h1 {
   font-size: 44px;
   margin: 10px 0;
+  color: #0f2f57;
 }
 
 h2 {
-  color: #ffcc00;
+  color: #1f75b8;
   margin-top: 0;
 }
 
@@ -52,16 +54,18 @@ h2 {
 .price {
   font-size: 20px;
   margin: 10px 0;
+  color: #0f2f57;
 }
 
 .home-bizum {
   margin: 25px auto 0;
   padding: 18px;
   max-width: 460px;
-  background: rgba(255, 204, 0, 0.15);
-  border: 1px solid rgba(255, 204, 0, 0.6);
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(31, 117, 184, 0.45);
   border-radius: 14px;
   text-align: left;
+  color: #0f2f57;
 }
 
 .home-bizum p {
@@ -76,13 +80,14 @@ h2 {
   display: inline-block;
   margin: 10px;
   padding: 15px 24px;
-  background: #ffcc00;
-  color: #061d5f;
+  background: #1f75b8;
+  color: white;
   text-decoration: none;
   font-weight: bold;
   border-radius: 10px;
   border: none;
   cursor: pointer;
+  box-shadow: 0 8px 20px rgba(31, 117, 184, 0.25);
 }
 
 .button:hover {
@@ -92,12 +97,15 @@ h2 {
 .card {
   margin-top: 25px;
   padding: 25px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(31, 117, 184, 0.25);
   border-radius: 18px;
+  color: #0f2f57;
+  box-shadow: 0 10px 30px rgba(15, 47, 87, 0.12);
 }
 
 .card h3 {
-  color: #ffcc00;
+  color: #1f75b8;
   margin-top: 0;
 }
 
@@ -108,8 +116,8 @@ h2 {
 .bizum-box {
   margin: 18px 0;
   padding: 18px;
-  background: rgba(255, 204, 0, 0.15);
-  border: 1px solid rgba(255, 204, 0, 0.6);
+  background: rgba(117, 170, 219, 0.18);
+  border: 1px solid rgba(31, 117, 184, 0.45);
   border-radius: 14px;
 }
 
