@@ -79,7 +79,8 @@ h2 {
 .button {
   display: inline-block;
   margin: 10px;
-  padding: 30px 55px;
+  padding: 24px 48px;
+  font-size: 24px;
   background: #1f75b8;
   color: white;
   text-decoration: none;
